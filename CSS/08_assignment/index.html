@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Card</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css"
+      integrity="sha384-NvKbDTEnL+A8F/AA5Tc5kmMLSJHUO868P+lDtTpJIeQdGYaUIuLr4lVGOEA1OcMy"
+      crossorigin="anonymous"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+      body {
+        margin: 0;
+        padding: 0;
+        background: #67b26f; /* fallback for old browsers */
+        background: -webkit-linear-gradient(
+          to right,
+          #4ca2cd,
+          #67b26f
+        ); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(
+          to right,
+          #4ca2cd,
+          #67b26f
+        ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        font-family: "Inter", serif;
+      }
+      .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 100vh;
+        flex-direction: row;
+      }
+
+      .card {
+        width: 400px;
+        height: 400px;
+        background-color: rgba(205, 220, 209, 0.9);
+        border-radius: 8px;
+        -webkit-box-shadow: 11px 0px 28px -7px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 11px 0px 28px -7px rgba(0, 0, 0, 0.75);
+        box-shadow: 11px 0px 28px -7px rgba(0, 0, 0, 0.75);
+        text-align: center;
+      }
+      img {
+        width: 200px;
+        margin-top: 5px;
+        object-fit: contain;
+      }
+      div > h2 {
+        text-align: center;
+      }
+      div > p {
+        text-align: center;
+      }
+      button {
+        margin-top: 10px;
+        padding: 10px;
+        margin-left: 10px;
+        width: 170px;
+        background-color: #1a1a1a;
+        color: white;
+        cursor: pointer;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+          <img src="../images/shoes1.png" alt="shoes image" />
+        <h2>NeuroStep X1</h2>
+        <p>Smart shoes that adapt to your gait in real-time</p>
+        <button type="submit">Buy Now</button>
+        <button type="submit">Add to Cart</button>
+      </div>
+      <div class="card">
+        <img src="../images/shoes2.png" alt="card-img" />
+        <h2>QuantumStride V5</h2>
+        <p>Lightweight shoes with quantum energy return</p>
+        <button type="submit">Buy Now</button>
+        <button type="submit">Add to Cart</button>
+      </div>
+      <div class="card">
+        <img src="../images/shoes4.png" alt="card-img" />
+        <h2>LumoFlex ZR</h2>
+        <p>Flexible, LED-lit shoes for dynamic comfort</p>
+        <button type="submit">Buy Now</button>
+        <button type="submit">Add to Cart</button>
+      </div>
+      <div class="card">
+        <img src="../images/shoes3.png" alt="card-img" />
+        <h2>HyperGlide NX</h2>
+        <p>Speed-focused shoes with frictionless soles</p>
+        <button type="submit">Buy Now</button>
+        <button type="submit">Add to Cart</button>
+      </div>
+    </div>
+  </body>
+</html>
